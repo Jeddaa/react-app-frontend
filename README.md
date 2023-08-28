@@ -27,6 +27,12 @@
 
 **[Hello-react-app]** Is an app that fetches from a rails api and displays random greetings.
 
+## 🛠 Link to back-end <a name="link-backend"></a>
+
+-- [Link to backend-end!](https://github.com/Jeddaa/rails-app-backend)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -67,7 +73,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```
-  cd hello-react-app
+  cd react-app-frontend
   git clone https://github.com/Jeddaa/react-app-frontend.git
 ```
 
@@ -97,6 +103,39 @@ To run tests, run the following command:
 
 ```
   npx stylelint "**/*.{css,scss}"
+```
+
+### Setup rails API
+
+Clone the rails repository:
+
+```
+  cd hello-react-app
+  git clone https://github.com/Jeddaa/rails-app-backend.git
+```
+
+### Install
+
+Install this project with:
+
+```
+  bundle install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+  rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+  rubocop
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
