@@ -1,11 +1,10 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-
 const initialState = {
   greeting: {},
   isLoading: false,
-  isError: false
+  isError: false,
 };
 
 const URL = 'http://localhost:3000/api/greetings';
@@ -20,7 +19,7 @@ export const fetchGreetings = createAsyncThunk(
       console.error('Error fetching greetings:', error.message);
       throw error;
     }
-  }
+  },
 );
 
 export const greetingSlice = createSlice({
@@ -46,4 +45,3 @@ export const greetingSlice = createSlice({
 });
 
 export default greetingSlice.reducer;
-
