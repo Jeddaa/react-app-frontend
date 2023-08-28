@@ -1,70 +1,195 @@
-# Getting Started with Create React App
+# Hello-react-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+- [API](#api)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# 📖 [Hello-react-app] <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**[Hello-react-app]** Is an app that fetches from a rails api and displays random greetings.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Link to back-end <a name="link-backend"></a>
 
-### `npm test`
+-- [Link to backend-end!](https://github.com/Jeddaa/rails-app-backend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
+# 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">React</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">No Server build yet</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **[Fetch random greetings]**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running, follow these steps.
 
-### Code Splitting
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone this repository to your desired folder:
 
-### Analyzing the Bundle Size
+```
+  cd react-app-frontend
+  git clone https://github.com/Jeddaa/react-app-frontend.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Install
 
-### Making a Progressive Web App
+Install this project with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+  npm install
+```
 
-### Advanced Configuration
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the project, execute the following command:
 
-### Deployment
+```
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Run tests
 
-### `npm run build` fails to minify
+To run tests, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ```
+  rubocop
+``` -->
+
+```
+  npx stylelint "**/*.{css,scss}"
+```
+
+### Setup rails API
+
+Clone the rails repository:
+
+```
+  cd hello-react-app
+  git clone https://github.com/Jeddaa/rails-app-backend.git
+```
+
+### Install
+
+Install this project with:
+
+```
+  bundle install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+  rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+  rubocop
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Fatihah Oduwole**
+
+- GitHub: [@jeddaa](https://github.com/jeddaa)
+- Twitter: [jeddaah](https://twitter.com/_jeddaah)
+- LinkedIn: [@jedda](https://linkedin.com/in/fatihahoduwole)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Greetings for multiple languages]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Jeddaa/react-app-frontend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please show support by staring ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I am grateful for microverse for the opprtunity to enroll in their curriculum.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
